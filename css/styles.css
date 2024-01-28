@@ -40,6 +40,8 @@ img {
   width: 1px;
 }
 
+
+
 /* AUTOFILL COLORS
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -74,12 +76,35 @@ select:-webkit-autofill:focus {
   padding-right: 50px;
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 /* MAIN CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+.timer-wrapper {}
+
+.showtime {
+  font-weight: bold;
+  text-align: center;
+  font-size: 56px;
+
+
+}
+
+.timer-wrapper button[type='button'] {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 5px;
 }
 
 
