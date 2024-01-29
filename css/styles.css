@@ -103,10 +103,18 @@ select:-webkit-autofill:focus {
   font-weight: bold;
   font-size: 24px;
   cursor: pointer;
-  border: 1px solid green;
+  border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: #eee;
 }
 
+.timer-wrapper button[type='button']:hover {
+  opacity: 0.8;
+}
+
+.timer-wrapper button[type='button']:active {
+  opacity: 0.6;
+}
 
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
